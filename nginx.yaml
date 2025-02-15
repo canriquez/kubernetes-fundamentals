@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx-churles
+    method: fromcode
+    another: label
+  name: nginx-churles
+spec:
+  containers:
+  - image: nginx
+    name: nginx-churles
