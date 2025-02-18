@@ -5,6 +5,7 @@ metadata:
     run: nginx-churles
     method: fromcode
     another: label
+    yet: another-label
   name: nginx-churles
 spec:
   containers:
